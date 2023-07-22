@@ -17,55 +17,27 @@
         android:orientation="horizontal"
         android:padding="3dp">
 
-        <Button
-            android:id="@+id/tutorial_cancel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Previous"
-            android:layout_weight="0.5"
-            android:gravity="center"/>
-
-        <Button
-            android:id="@+id/tutorial_next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Next"
-            android:layout_weight="0.5"
-            android:gravity="center"/>
-
-        <!--<TextView
+        <TextView
             android:id="@+id/tutorial_cancel"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_marginLeft="25dp"
             android:layout_weight="0.1"
-            android:gravity="center"
-            android:text="SKIP"
+            android:text="PREVIOUS"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/rnyoo_text_size_normal" />-->
-
-        <!--<com.rnyoo.app.library.CirclePageIndicator
-            android:id="@+id/pagerIndicator"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="0.4"
             android:gravity="center"
-            android:padding="3dp" />-->
+            android:layout_gravity="center"/>
 
-        <!--<TextView
+        <TextView
             android:id="@+id/tutorial_next"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_marginRight="25dp"
             android:layout_weight="0.1"
-            android:gravity="center"
             android:text="NEXT"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/rnyoo_text_size_normal" />-->
+            android:gravity="center"
+            android:layout_gravity="center"/>
     </LinearLayout>
 
 </RelativeLayout>
-
